@@ -1,0 +1,107 @@
+body{
+    background-color: #121212;
+    background-image: url("register-bg.png");
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    display: block;
+    margin: auto;
+    padding-top: 12%;
+    height: 2.3rem;
+}
+
+.sec{
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    background-color: #242424;
+    width: 30rem;
+}
+
+form{
+    display: inline-block;
+    line-height: 2.5;
+}
+
+.login-sec{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.sub-txt{
+    padding-top: 3%;
+    color: #adadad;
+    text-align: center;
+}
+
+label,input{
+    float: left;
+    color: #d3d3d3;
+}
+
+.detail{
+    font-size: 1rem;
+    border: 1px solid #484848;
+    border-radius: 5px;
+    height: 2rem;
+    width: 25rem;
+    background-color: #363636;
+}
+
+.btn{
+    height: 2.3rem;
+    border-radius: 5px;
+    width: 25rem;
+    color: white;
+    font-size: 1rem;
+    border-color:#007bff;
+    background-color: #007bff;
+}
+
+.txt{
+    text-align: left;
+    margin-left: 2.5rem;
+    color: #d3d3d3;
+}
+
+.lnk{
+    text-decoration: none;
+    color: #adadad;
+}
+
+.lnk:hover{
+    color: #484848;
+}
+
+.lnk2{
+    margin-left: 7rem;
+    text-decoration: none;
+    color: #adadad;
+}
+
+.lnk2:hover{
+    color: #484848;
+}
+
+
+.lbl{
+    display: inline-block;
+}
+
+.check{
+    margin-top: 0.8rem;
+    margin-right: 0.8rem;
+    position: relative;
+}
+
+.login-sec2{
+    margin-left: 2.2rem;
+    float: left;
+}
+
+.login-sec3{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}

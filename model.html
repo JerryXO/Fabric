@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="./app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a2a99e0e60.js" crossorigin="anonymous"></script>
+    <title>FABRIX-XR</title>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.138.0/build/three.module.js",
+                "OrbitControls": "https://unpkg.com/three@0.138.0/examples/jsm/controls/OrbitControls.js"
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="cont">
+        <a href="./index.html"><button class="btn"><i class="fa-solid fa-xmark"></i></button></a>
+        <button class="btn1"><i class="fa-solid fa-mask"></i></button>
+    </div>
+    <div class="container">
+        <canvas class="webgl"></canvas>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
